@@ -28,6 +28,10 @@ body {
     min-height: 335px;
   }
 }
+.container.disable :where(.editor-panel, .reset-filter, .save-img) {
+  opacity: 0.6;
+  pointer-events: none;
+}
 .wrapper {
   .editor-panel {
     width: 280px;
