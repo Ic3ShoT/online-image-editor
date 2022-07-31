@@ -10,7 +10,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: lavender;
+  background: #e3e9ff;
 }
 .container {
   width: 850px;
@@ -151,6 +151,7 @@ body {
     border-radius: 10px;
   }
 }
+
 @media screen and (max-width: 760px) {
   .container {
     padding: 25px;
